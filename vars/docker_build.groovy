@@ -1,3 +1,3 @@
-def call(String projectName, String ImageTag, String DockerHubUser) {
+def call(String projectName, String imageTag, String DockerHubUser) {
     sh "docker build -t ${DockerHubUser}/${projectName}:${ImageTag} ."
 }
