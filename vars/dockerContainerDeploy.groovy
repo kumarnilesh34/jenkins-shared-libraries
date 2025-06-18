@@ -1,4 +1,4 @@
-def call(String containerName, String dockerHubUser, String imageName, String imageTag, String portMapping, String containerName){
+def call(String containerName, String dockerHubUser, String imageName, String imageTag, String portMapping){
 }
     sh "docker stop ${containerName} || true"
     sh "docker rm ${containerName} || true"
