@@ -1,4 +1,4 @@
 def call(){
   echo "Hello Dosto keise ho?"
-  whoami
+  sh 'whoami'
 }
